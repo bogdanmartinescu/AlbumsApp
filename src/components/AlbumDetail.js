@@ -29,7 +29,7 @@ const AlbumDetail = ({ album }) => {
       </CardSection>
 
       <CardSection>
-        <Button></Button> 
+        <Button>Add to Cart</Button> 
       </CardSection>
     </Card>
   );

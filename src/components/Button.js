@@ -7,7 +7,7 @@ import {
 const Button = (props) => {
   return (
     <TouchableHighlight style={style.buttonStyles}>
-      <Text>Click me!</Text>
+      <Text>{props.children}</Text>
     </TouchableHighlight>
   )
 }
